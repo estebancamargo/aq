@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="text-center"> GASTOS SEMANALES</h1>
+        </header>
+        <section class="principal">
+            <div class="row">
+                <div class="col">
+                    <div class="contenido gastos">
+                        <h2 class="text-center">AÑADIR LOS GASTOS AQUI</h2>
+                        <form id="agregar-gasto" action="#">
+                            <div class="form-group">
+                                <label>Gasto</label>
+                                <input type="text" class="form-control" id="gasto" placeholder="Nombre del gasto">
+                            </div>
+                            <div class="form-group">
+                                <label>Cantidad</label>
+                                <input type="text" class="form-control" id="cantidad" placeholder="Cantidad en $">
+                            </div>
+                            <button type="submit" class="btn btn-warning">AGREGAR</button>
+                        
+                        </form> 
+                
+                </div>
+            </div>
+            <div class="col">
+                <div class="contenido-lista">
+                    <h2 class="text-center">LISTADO DE GASTOS</h2>
+                    <div id="gastos">
+                        <ul class="list-group"></ul>
+                    </div>
+                    <div id="presupuesto" class="presupuesto">
+                        <div class="alert alert-warning">
+                            <p>presupuesto: $<span id="total"></span></p>
+                        </div>
+                        <div class="restante alert alert-success">
+                            <p>restante: $<span id="restante"></span></p>
+                        </div>
+                        <button id="btn-gasto-mayor" class="btn btn-info mt-3">Gasto Mayor</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+<script src="js/funcionaslgasto.js"></script>
+
+</body>
+</html>

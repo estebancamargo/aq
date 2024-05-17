@@ -1,0 +1,90 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el título */
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Estilos para el formulario de agregar gastos */
+.contenido.gastos {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilos para los campos de texto */
+.form-group label {
+    color: #fff;
+}
+
+.form-control {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+}
+
+/* Estilos para el botón de agregar */
+.btn-warning {
+    background-color: #f39c12;
+    border: none;
+    color: #fff;
+}
+
+.btn-warning:hover {
+    background-color: #e67e22;
+}
+
+/* Estilos para la lista de gastos */
+.contenido-lista {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilos para el título de la lista de gastos */
+.contenido-lista h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los elementos de la lista de gastos */
+.list-group {
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 10px;
+}
+
+.list-group-item {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+}
+
+/* Estilos para el área de presupuesto y restante */
+.presupuesto {
+    margin-top: 20px;
+}
+
+.alert {
+    border-radius: 10px;
+}
+
+.alert-warning {
+    background-color: #f1c40f;
+    color: #fff;
+}
+
+.alert-success {
+    background-color: #2ecc71;
+    color: #fff;
+}
